@@ -1,0 +1,15 @@
+{
+    "name": "corecms/coreplugins",
+    "minimum-stability": "dev",
+    "description": "corecms插件加载",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "think\\coreplugins\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
